@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page 1</title>
+    
+    <style>
+    
+        body{
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1440px;
+            padding: 0;
+            margin-top: 0px;
+        }
+        #navbar div ul{
+            margin: 0px;
+            padding: 0px;
+        }
+        #navbar div ul li{
+            list-style: none;
+            display: inline;
+            margin: 0px;
+            padding: 0px;
+        }
+        #navbar div ul li a{
+            text-decoration: none;
+            color: white;
+            margin: 0px 20px;
+        }
+        #navbar{
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        
+        #content{
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #content div, #content div ul{
+            margin: 0px;
+            padding: 0px;
+        }
+        #content div ul li{
+            height: 50px;
+            width: 50px;
+            list-style: none;
+            border: solid black 1px;
+            padding: 10px;
+            display: flex;
+            align-content: center;
+        }
+        #content div ul li a{
+            text-decoration: none;
+/*            background-color: black;*/
+            color: white;
+            display: flex;
+            align-content: center;
+        }
+        
+        
+        #imagecontent p, #content img{
+            margin: 10px;
+            color: white;
+            font-size: 25px;
+        }
+        
+    </style>
+</head>
+<body>
+   <div style="background-color: #b0d8b0;">
+    
+    <div id="navbar" style="
+     border: solid black 1px;
+     padding: 20px 5px 30px 5px;
+     margin: 0px;
+     ">
+      
+       <div id="navbarleft">
+           <ul>
+               <li><a href="#" 
+               style="color:orange;
+               margin-left: -0px;
+               font-size: 30px;
+               -webkit-text-stroke: 0.5px black;
+               border: solid black 1px;
+               padding: 5px 20px 15px 20px;"
+               >ع</a></li>
+               <li><a href="#">BROWSE</a></li>
+               <li><a href="#">PLAYLIST</a></li>
+               <li><a href="#">GENRES</a></li>
+               <li><a href="#" 
+                   style="color: black; 
+                   border: solid black 1px; 
+                   padding: 5px 10px 5px 10px;">
+                    SUBSCRIBE</a></li>
+           </ul>
+       </div>
+       
+       <div id="navbarright" style="margin-top: 10px;">
+           <ul>
+               <li><a href="#">LOGIN</a></li>
+               <li><a href="#" style="
+                   color: black;
+               ">SIGN UP</a></li>
+           </ul>
+       </div>
+        
+    </div>
+    
+    <div id="content">
+       
+        <div style="
+          width: 72px;
+
+           ">
+            <ul style="display: inline-block;">
+                <li><a href="#" style="margin-top: 15px;">RADIO</a></li>
+                <li><a href="#" style="margin-top: 15px;">HEART</a></li>
+                <li><a href="#" style="margin-top: 15px;">VIDEO</a></li>
+                <li><a href="#" style="margin-top: 15px;">LIVE</a></li>
+            </ul>
+            <p style=
+               "writing-mode: vertical-rl;
+               font-size: 30px;
+               margin: 60px 0px 10px 20px;
+               color: white;transform : rotate(180deg);
+               "
+               >
+                MUSIC NEWS
+            </p>
+        </div>
+        
+        <div id="imagecontent" style="
+                text-align: center;
+                background-color: #ed8b66;
+                width:1368px;
+                background-image: url('BloodOrangePara1.png');
+           ">
+              <div style="float: left; left: 0; text-align: left;
+                padding-left: 30px;
+                font-family: Neue, Helvetica, sans-serif;
+                 ">
+                  <h1 style="
+                  color: white;
+                  margin-left: 12px;
+                  ">BLOOD ORANGE</h1>
+                  <p style="
+                  color: black;
+                  ">AKA DEV HYNES</p>
+                  <p>
+                      Devonté Hynes (born David Joseph<br> Michael Hynes;[1] 23 December<br> 1985), as known as Blood Orange<br> and formely Lightspeed Champion, <br> is an English singer, songwriter,<br> record producer and director. From<br> 2004 to 2006, Hynes was a member<br> of the brand test Icicles, playing<br> guiter, synth, and occasionally<br> performing vocals. They released<br> one full-lenght album in 2005.
+                  </p>
+              </div>
+              
+              <div class="songIcons" style="position: absolute; text-align: center;">
+                   <div class="shuffle" style="position: absolute; margin: 0px 0px 0px 420px;"> <a href="#"><img src="icons/shuffle.png" alt="" width="50"></a></div>
+                  <div class="back" style="position: absolute; margin: 7px 0px 0px 520px;"><a href="#"><img src="icons/back.png" alt="" width="50"></a></div>
+                  <div class="play" style="position: absolute; margin:7px 0px 0px 600px;"> <a href="#"><img src="icons/play.png" alt="" width="80"></a></div>
+                  <div class="next" style="position: absolute; margin:7px 0px 0px 720px;"> <a href="#"><img src="icons/next.png" alt="" width="50"></a></div>
+                  <div class="repeat" style="position: absolute; margin:7px 0px 0px 820px;">  <a href="#"><img src="icons/repeat.png" alt="" width="50"></a></div>
+               </div>
+                
+               <div style="float: right; right: 0px;">
+                    <p
+                    style="
+                    "
+                    >Albums</p>
+
+                    <img src="eacc2030.jpg" style="
+                    height: 200px;
+                    border-radius: 50%;
+                    "><br>
+                    <img src="blood-orange-cupid-deluxe.jpg" style="
+                    height: 200px;
+                    border-radius: 50%;
+                    "><br>
+                    <img src="blood orange_negro swan.jpg" style="
+                    height: 200px;
+                    border-radius: 50%;
+                    ">
+                </div>
+        </div>
+        
+        
+    </div>
+    
+    </div>
+    
+    
+</body>
+</html>
